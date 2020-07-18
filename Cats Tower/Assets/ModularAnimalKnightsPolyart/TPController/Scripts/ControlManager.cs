@@ -21,7 +21,7 @@ namespace DM
         public float moveSpeed = 3.5f;  //speed of running
         public float sprintSpeed = 5f;  //speed of sprinting(double time of running)
         public float rotateSpeed = 5;   //speed of character's turning around
-        public float jumpForce = 600f;  //how high you can jump value.
+        public float jumpForce = 225f;  //how high you can jump value.
         
 
         [Header("States")]

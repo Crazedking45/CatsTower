@@ -7,8 +7,8 @@ namespace DM
     public class CameraManager : MonoBehaviour
     {
         public float followSpeed = 9f;  //defines camera speed that follows character.
-        public float mouseSpeed = 2f;   //defines mouse's control speed.
-        public float controllerSpeed = 7f;  //defines joypad's control speed.
+        public float mouseSpeed = 0f;   //defines mouse's control speed.
+        public float controllerSpeed = 0f;  //defines joypad's control speed.
 
         public Transform target;    //stores the target for camera.
 
@@ -18,8 +18,8 @@ namespace DM
         public Transform camTrans;  //stores camera's root transform.
 
         float turnSmoothing = 0.1f;     //defines how smooth this camera moves.
-        public float minAngle = -35f;   //minimum vertical angle.
-        public float maxAngle = 35f;    //maximum vertical angle.
+        public float minAngle = -0f;   //minimum vertical angle.
+        public float maxAngle = 0f;    //maximum vertical angle.
 
         float smoothX;
         float smoothY;
