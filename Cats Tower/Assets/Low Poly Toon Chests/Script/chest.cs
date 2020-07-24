@@ -31,7 +31,7 @@ public class chest : MonoBehaviour
             storeCoins = SpawnObject();
         }
 
-        if(Vector3.Distance(playerPosition.position, transform.position) >= 2f || currentCoins == storeCoins)
+        if(Vector3.Distance(playerPosition.position, transform.position) >= 5f || currentCoins == storeCoins)
         {
             Full = false;
             anima.SetBool("open", false);
