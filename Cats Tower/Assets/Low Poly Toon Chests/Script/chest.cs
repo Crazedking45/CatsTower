@@ -15,6 +15,8 @@ public class chest : MonoBehaviour
     public int currentCoins;
     private bool Full = false;
 
+    public Collider storeTrig;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,11 +26,14 @@ public class chest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(storeCoins);
+        
         if (Input.GetKeyDown(KeyCode.F) && trigger == true && Full == false)
         {
             anima.SetBool("open", true);
             storeCoins = SpawnObject();
+
+            Destroy(storeTrig);
+            trigger = false;
         }
 
         if(Vector3.Distance(playerPosition.position, transform.position) >= 5f || currentCoins == storeCoins)
@@ -37,7 +42,7 @@ public class chest : MonoBehaviour
             anima.SetBool("open", false);
         }
 
-        print(anima.GetBool("open"));
+        
     }
     public void OnTriggerEnter(Collider other)
     {
