@@ -61,12 +61,12 @@ public class chest : MonoBehaviour
             int randObjects = Random.Range(0, 2);
             if(randObjects == 0)
             {
-                Instantiate(coin, new Vector3(-transform.position.x + (i + 1), transform.position.y, transform.position.z), Quaternion.identity);
+                Instantiate(coin, new Vector3(transform.position.x, transform.position.y, transform.position.z + (i + 1)), Quaternion.identity);
                 
             }
             else
 
-                Instantiate(bone, new Vector3(-transform.position.x + (i + 1), transform.position.y, transform.position.z) , Quaternion.identity);
+                Instantiate(bone, new Vector3(transform.position.x, transform.position.y, transform.position.z + (i + 1)) , Quaternion.identity);
 
         }
         print(storeNumber);

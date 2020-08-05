@@ -64,9 +64,9 @@ public class MovingPlatform : MonoBehaviour
     public void NextPlatform()
     {
         point_number++;
-        if (point_number >= 0)
+        if (point_number >= 6)
         {
-            point_number = 0;
+            point_number = 1;
         }
         current_target = points[point_number];
     }
