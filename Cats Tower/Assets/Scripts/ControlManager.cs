@@ -43,6 +43,8 @@ namespace DM
         [HideInInspector]
         public Rigidbody rigid;     //for caching Rigidbody component
         CameraManager camManager;   //for caching CameraManager script
+
+        private Vector3 checkPointTrans;
         
         void Start() // Initiallizing camera, animator, rigidboy
         {                  
@@ -205,7 +207,24 @@ namespace DM
         }
 
         //These mecanic detects whether you are on ground or not.
-        
+
+        public void OnTriggerEnter(Collider other)
+        {
+            if(other.gameObject.tag == "yarn")
+            {
+                transform.position = checkPointTrans;
+                
+                Destroy(other.gameObject);
+                
+            }
+            if(other.gameObject.tag == "Checkpoint")
+            {
+                checkPointTrans = other.transform.position;
+                
+            }
+        }
+
+
         private void OnTriggerStay(Collider collision)
         {
             if (collision.gameObject.tag == "Ground")
