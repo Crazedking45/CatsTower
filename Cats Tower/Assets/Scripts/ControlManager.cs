@@ -92,7 +92,7 @@ namespace DM
            vertical = Input.GetAxis("Vertical");    //for getting vertical input.
            horizontal = Input.GetAxis("Horizontal");    //for getting horizontal input.
            //sprint = Input.GetButton("SprintInput");     //for getting sprint input.
-           jump = Input.GetButtonDown("Jump");      //for getting jump input.
+           //jump = Input.GetButtonDown("Jump");      //for getting jump input.
            normalAttack = Input.GetButtonDown("Fire1"); //for getting normal attack input.
            comboAttack = Input.GetButtonDown("Fire2");    //for getting combo attack input.
            roll = Input.GetButtonDown("Fire3");     //for getting roll input.
@@ -102,14 +102,14 @@ namespace DM
         {
             canMove = anim.GetBool("canMove");   //getting bool value from Animator's parameter named "canMove".          
 
-            if (jump)   //I clicked jump, left mouse button or B key in the joypad.
+           /* if (jump)   //I clicked jump, left mouse button or B key in the joypad.
             {
                 if (onGround && canMove) //do jump only when you are on ground and you can move.
                 {
                     anim.CrossFade("falling", 0.1f); //play "falling" animation in 0.1 second as cross fade method.
                     rigid.AddForce(0, jumpForce, 0);  //Adding force to Y axis for jumping up.                  
                 }            
-            }   
+            }   */
 
             if(comboAttack)     //I clicked for combo attack. right mouse button or X key in the joypad.
             {
