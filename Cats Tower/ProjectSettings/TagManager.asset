@@ -6,8 +6,6 @@ TagManager:
   tags:
   - Ground
   - player
-  - yarn
-  - Checkpoint
   layers:
   - Default
   - TransparentFX
