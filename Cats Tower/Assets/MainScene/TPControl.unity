@@ -2513,7 +2513,7 @@ MonoBehaviour:
   - {x: -25, y: 4.5, z: -18}
   point_number: 0
   tolerance: 0
-  speed: 2
+  speed: 2.5
   delay_time: 0.01
   automatic: 1
 --- !u!1001 &428186046
@@ -38744,7 +38744,7 @@ MonoBehaviour:
   - {x: -25, y: 4.5, z: -20}
   point_number: 0
   tolerance: 0
-  speed: 3.5
+  speed: 3
   delay_time: 0.01
   automatic: 1
 --- !u!1 &570263071
@@ -39944,7 +39944,7 @@ MonoBehaviour:
   - {x: -25, y: 4.5, z: -14}
   point_number: 0
   tolerance: 0
-  speed: 2.5
+  speed: 2
   delay_time: 0.01
   automatic: 1
 --- !u!1 &733365477
@@ -59762,7 +59762,7 @@ MonoBehaviour:
   - {x: -25, y: 4.5, z: -22}
   point_number: 0
   tolerance: 0
-  speed: 3.5
+  speed: 3
   delay_time: 0.01
   automatic: 1
 --- !u!4 &1310223625 stripped
@@ -59981,7 +59981,7 @@ MonoBehaviour:
   - {x: -25, y: 4.5, z: -16}
   point_number: 0
   tolerance: 0
-  speed: 2
+  speed: 2.5
   delay_time: 0.01
   automatic: 1
 --- !u!43 &1327644712
@@ -61159,7 +61159,7 @@ MonoBehaviour:
   - {x: -25, y: 4.5, z: -12}
   point_number: 0
   tolerance: 0
-  speed: 2.5
+  speed: 2
   delay_time: 0.01
   automatic: 1
 --- !u!1 &1724979304
@@ -65955,7 +65955,7 @@ MonoBehaviour:
   - {x: -25, y: 4.5, z: -24}
   point_number: 2
   tolerance: 0
-  speed: 3
+  speed: 3.5
   delay_time: 0.01
   automatic: 1
 --- !u!1 &2049297176
