@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.565159, g: 0.63571626, b: 0.72181636, a: 1}
+  m_IndirectSpecularColor: {r: 0.5651589, g: 0.6357157, b: 0.7218147, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: e319aeefb91394e4280243b0a4922f6d, type: 2}
 --- !u!1 &16970146
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,6 +1088,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweedleDum (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
 --- !u!1 &205185477
@@ -1988,6 +1993,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweedleDum (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
 --- !u!1001 &272537769
@@ -2056,6 +2066,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TweedleDum (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
@@ -2563,6 +2578,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweedleDum (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
 --- !u!1001 &431427344
@@ -2731,7 +2751,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1442145103}
+  m_Mesh: {fileID: 1485447969}
 --- !u!114 &448871552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20390,7 +20410,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448871550}
-  m_Mesh: {fileID: 1442145103}
+  m_Mesh: {fileID: 1485447969}
 --- !u!4 &448871555
 Transform:
   m_ObjectHideFlags: 0
@@ -38284,6 +38304,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweedleDum (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
 --- !u!1 &529008451
@@ -38511,6 +38536,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TweedleDum (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
@@ -40490,6 +40520,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TweedleDum (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
@@ -59292,6 +59327,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweedleDum
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566478, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
 --- !u!43 &1127397811
@@ -59300,7 +59345,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14790
+  m_Name: pb_Mesh14958
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -59523,6 +59568,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TweedleDum (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
@@ -59951,7 +60001,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14286
+  m_Name: pb_Mesh14454
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -60137,15 +60187,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4844475096256448, guid: 0205ad0993780b64bab3d4dceac2f090, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.07
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4844475096256448, guid: 0205ad0993780b64bab3d4dceac2f090, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.35
+      value: 0.56
       objectReference: {fileID: 0}
     - target: {fileID: 4844475096256448, guid: 0205ad0993780b64bab3d4dceac2f090, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.04
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4844475096256448, guid: 0205ad0993780b64bab3d4dceac2f090, type: 3}
       propertyPath: m_LocalRotation.x
@@ -60189,7 +60239,7 @@ PrefabInstance:
     - target: {fileID: 114718355588309698, guid: 0205ad0993780b64bab3d4dceac2f090,
         type: 3}
       propertyPath: moveSpeed
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0205ad0993780b64bab3d4dceac2f090, type: 3}
@@ -60223,13 +60273,19 @@ Transform:
   m_Father: {fileID: 240412801}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &1442145103
+--- !u!4 &1448949482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4295235456469566465, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+    type: 3}
+  m_PrefabInstance: {fileID: 537513679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!43 &1485447969
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14260
+  m_Name: pb_Mesh14428
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -60386,12 +60442,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!4 &1448949482 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4295235456469566465, guid: 2e5e694733c0ffc499b0ae120e752e6a,
-    type: 3}
-  m_PrefabInstance: {fileID: 537513679}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1499768514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60458,6 +60508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TweedleDum (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
@@ -60839,6 +60894,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweedleDum (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
 --- !u!1 &1630686344
@@ -61000,6 +61060,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TweedleDum (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
@@ -61289,6 +61354,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweedleDum (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
 --- !u!1 &1732471291
@@ -61311,7 +61381,7 @@ GameObject:
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!114 &1732471292
 MonoBehaviour:
@@ -64306,6 +64376,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweedleDum (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
 --- !u!1 &1754085270
@@ -64361,7 +64436,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14172
+  m_Name: pb_Mesh14340
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -64530,7 +64605,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14642
+  m_Name: pb_Mesh14810
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -65040,6 +65115,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TweedleDum (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
@@ -65818,6 +65898,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweedleDum (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
 --- !u!1001 &1992729062
@@ -66130,6 +66215,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TweedleDum (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: lookRadius
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
