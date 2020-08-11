@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainScene/TPControl.unity
     guid: f009e14939743b442b48de2b65f0d9d2
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: e74e4cdb2ec956c45a321cafe850fe8d
   m_configObjects: {}

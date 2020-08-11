@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class UIAppear : MonoBehaviour
 {
     [SerializeField] private Image customImage;
+    [SerializeField] private Image buttonImage;
 
     void OnTriggerEnter(Collider other)
     {
