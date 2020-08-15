@@ -9,6 +9,7 @@ TagManager:
   - yarn
   - Checkpoint
   - Pick Up
+  - TextTrigger
   layers:
   - Default
   - TransparentFX

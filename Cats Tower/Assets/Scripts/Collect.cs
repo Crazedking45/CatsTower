@@ -10,6 +10,10 @@ public class Collect : MonoBehaviour
     public Text collectItem;
     public GameObject TriggerObj;
     public GameObject uiObject;
+    public GameObject TextTrigger;
+    public GameObject DoorUnlockedText;
+
+    public float timer = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +24,6 @@ public class Collect : MonoBehaviour
         collectItem.gameObject.SetActive(true);
         TriggerObj.gameObject.SetActive(true);
         uiObject.SetActive(false);
-
     }
 
     void OnTriggerEnter(Collider other)
@@ -31,12 +34,6 @@ public class Collect : MonoBehaviour
             count = count + 1;
             SetCountText();
         }
-
-       /* if (player.gameObject.tag == "player")
-        {
-            uiObject.SetActive(true);
-            StartCoroutine("WaitForSec");
-        }*/
     }
 
     void SetCountText()
@@ -49,14 +46,9 @@ public class Collect : MonoBehaviour
             TriggerObj.gameObject.SetActive(false);
             count = count - 20;
             countText.text = "Coint: " + countText.ToString();
+            TextTrigger.gameObject.SetActive(false);
+
+            Destroy(DoorUnlockedText, timer);
         }
-    }
-
-    IEnumerator WaitForSec()
-    {
-        yield return new WaitForSeconds(3);
-
-        uiObject.SetActive(false);
-
     }
 }
