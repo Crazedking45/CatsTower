@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5651589, g: 0.6357157, b: 0.7218147, a: 1}
+  m_IndirectSpecularColor: {r: 0.28503963, g: 0.3713908, b: 0.4958011, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7874,6 +7874,21 @@ PrefabInstance:
         type: 3}
       propertyPath: orthographic size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 20498940271644258, guid: 6c4016ef1a0931340b7a4560f7da7595,
+        type: 3}
+      propertyPath: m_RenderingPath
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20498940271644258, guid: 6c4016ef1a0931340b7a4560f7da7595,
+        type: 3}
+      propertyPath: m_HDR
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20498940271644258, guid: 6c4016ef1a0931340b7a4560f7da7595,
+        type: 3}
+      propertyPath: m_AllowDynamicResolution
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114069685401044912, guid: 6c4016ef1a0931340b7a4560f7da7595,
         type: 3}
