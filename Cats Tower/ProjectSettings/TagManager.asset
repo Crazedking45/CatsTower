@@ -10,6 +10,7 @@ TagManager:
   - Checkpoint
   - Pick Up
   - TextTrigger
+  - Code Door
   layers:
   - Default
   - TransparentFX

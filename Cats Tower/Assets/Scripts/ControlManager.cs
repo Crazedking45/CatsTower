@@ -53,7 +53,7 @@ namespace DM
             SetupAnimator();
             rigid = GetComponent<Rigidbody>();            
         }
-        
+
         void SetupAnimator()//Setting up Animator component in the hierarchy.
         {
             if (activeModel == null)
@@ -84,7 +84,8 @@ namespace DM
         void Update()
         {            
             GetInput();     //getting control input from keyboard or joypad
-            UpdateStates();   //Updating anything related to character's actions.         
+            UpdateStates();   //Updating anything related to character's actions. 
+            
         }
 
         void GetInput() //getting various inputs from keyboard or joypad.
@@ -242,7 +243,7 @@ namespace DM
                 onGround = false;
                 anim.SetBool("onGround", false);                
             }
-        }        
+        }
 
     }
 }
