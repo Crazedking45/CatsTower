@@ -6,7 +6,6 @@ namespace DM
 {
     public class ControlManager : MonoBehaviour
     {
-        
         [Header("Initialize")]
         public GameObject activeModel;  // defines the current active model.
         public string[] randomAttacks;  // array of normal attacks in string.
@@ -85,10 +84,8 @@ namespace DM
         void Update()
         {            
             GetInput();     //getting control input from keyboard or joypad
-            UpdateStates();   //Updating anything related to character's actions. 
-            
+            UpdateStates();   //Updating anything related to character's actions.         
         }
-        
 
         void GetInput() //getting various inputs from keyboard or joypad.
         {
