@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 1000;
     public int currentHealth { get; private set; }
     public Stat damage;
     public HealthBar healthBar;
@@ -11,7 +11,7 @@ public class CharacterStats : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-       // healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetMaxHealth(maxHealth);
     }
    
     void Update()
@@ -21,7 +21,7 @@ public class CharacterStats : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        // healthBar.SetHealth(currentHealth);
+        healthBar.SetHealth(currentHealth);
         Debug.Log(transform.name + " takes " + damage + " damage.");
 
         if(currentHealth <= 0)
