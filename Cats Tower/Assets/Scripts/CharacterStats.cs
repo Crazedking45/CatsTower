@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Security.Cryptography;
+using UnityEngine;
 
 public class CharacterStats : MonoBehaviour
 {
@@ -10,20 +11,18 @@ public class CharacterStats : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+       // healthBar.SetMaxHealth(maxHealth);
     }
    
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(20);
-        }
+        
     }
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
+        // healthBar.SetHealth(currentHealth);
+        Debug.Log(transform.name + " takes " + damage + " damage.");
 
         if(currentHealth <= 0)
         {
@@ -33,6 +32,6 @@ public class CharacterStats : MonoBehaviour
 
     public virtual void Die()
     {
-
+        Debug.Log(transform.name + " died");
     }
 }
