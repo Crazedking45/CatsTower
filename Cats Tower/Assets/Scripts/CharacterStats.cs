@@ -10,20 +10,18 @@ public class CharacterStats : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        //healthBar.SetMaxHealth(maxHealth);
     }
    
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(20);
-        }
+        
     }
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
+        Debug.Log(transform.name + " takes " + damage + " damage.");
+        //healthBar.SetHealth(currentHealth);
 
         if(currentHealth <= 0)
         {
@@ -33,6 +31,6 @@ public class CharacterStats : MonoBehaviour
 
     public virtual void Die()
     {
-
+        Debug.Log(transform.name + " died.");
     }
 }
