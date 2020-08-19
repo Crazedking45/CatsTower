@@ -2591,7 +2591,7 @@ MonoBehaviour:
   maxHealth: 1000
   damage:
     baseValue: 10
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 2043728847}
 --- !u!114 &438491512
 MonoBehaviour:
   m_ObjectHideFlags: 0
