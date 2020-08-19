@@ -95,7 +95,7 @@ namespace DM
            //jump = Input.GetButtonDown("Jump");      //for getting jump input.
            normalAttack = Input.GetButtonDown("Fire1"); //for getting normal attack input.
            comboAttack = Input.GetButtonDown("Fire2");    //for getting combo attack input.
-           roll = Input.GetButtonDown("Fire3");     //for getting roll input.
+           //roll = Input.GetButtonDown("Fire3");     //for getting roll input.
         }
         
         void UpdateStates() //updates character's various actions.
