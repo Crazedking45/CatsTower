@@ -2442,12 +2442,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countText: {fileID: 1738417481}
+  keyCountText: {fileID: 0}
   DoorOpenText: {fileID: 845964998}
   collectItem: {fileID: 1749870686}
   TriggerObj: {fileID: 103990518}
   uiObject: {fileID: 1749870684}
   TextTrigger: {fileID: 935271578}
   DoorUnlockedText: {fileID: 845964996}
+  DoorVanish: {fileID: 0}
   timer: 5
 --- !u!1001 &446501355
 PrefabInstance:
@@ -10354,7 +10356,7 @@ PrefabInstance:
     - target: {fileID: 5129511016624659991, guid: 0b2d2f62847319140afa38537dd651e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.3332634
+      value: 5.141
       objectReference: {fileID: 0}
     - target: {fileID: 5129511016624659991, guid: 0b2d2f62847319140afa38537dd651e9,
         type: 3}
