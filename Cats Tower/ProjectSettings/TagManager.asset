@@ -13,9 +13,8 @@ TagManager:
   - Hidden
   - Weapon
   - key
-  - DumbDoor
-  - Dumbest Door
-  - spkey
+  - door
+  - Enemy
   layers:
   - Default
   - TransparentFX
