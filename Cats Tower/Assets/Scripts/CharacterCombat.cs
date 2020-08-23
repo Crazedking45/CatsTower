@@ -32,7 +32,7 @@ public class CharacterCombat : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(0))
+        if (Input.GetButtonDown("Fire1"))
         {
             Attack(myStats);
         }
