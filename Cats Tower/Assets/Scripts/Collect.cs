@@ -6,9 +6,11 @@ public class Collect : MonoBehaviour
 {
     public Text countText;
     public Text keyCountText;
+    public Text spkeyCountText;
     public Text DoorOpenText;
     private int count;
     private int keyCount;
+    private int spkeyCount;
     public Text collectItem;
     public GameObject TriggerObj;
     public GameObject uiObject;
@@ -27,6 +29,7 @@ public class Collect : MonoBehaviour
         DoorOpenText.text = "";
         SetCountText();
         SetKeyCountText();
+        SetSPKeyCountText();
         collectItem.gameObject.SetActive(true);
         TriggerObj.gameObject.SetActive(true);
         uiObject.SetActive(false);
@@ -41,9 +44,14 @@ public class Collect : MonoBehaviour
             SetCountText();
         }
 
+        if (other.gameObject.CompareTag("spkey"))
+        {
+            spkeyCount = spkeyCount + 1;
+            SetSPKeyCountText();
+        }
+
         if (other.gameObject.CompareTag("key"))
         {
-            other.gameObject.SetActive(false);
             keyCount = keyCount + 1;
             SetKeyCountText();
         }
@@ -66,12 +74,23 @@ public class Collect : MonoBehaviour
         }
     }
 
-    void SetKeyCountText()
+    void SetSPKeyCountText()
     {
+
         if (keyCount >= 1)
         {
             DoorVanish.SetActive(false);
+            spkeyCount = 0;
+        }
+    }
 
+    void SetKeyCountText()
+    {
+
+        if (keyCount >= 1)
+        {
+            DoorVanish.SetActive(false);
+            keyCount = 0;
         }
     }
 }

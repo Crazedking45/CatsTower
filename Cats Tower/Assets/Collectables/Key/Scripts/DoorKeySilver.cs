@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Configuration;
 using UnityEngine;
 
-public class DoorKey : MonoBehaviour
+public class DoorKeySilver : MonoBehaviour
 {
     public bool inTrigger;
-   
+
 
     void OnTriggerEnter(Collider other)
     {
@@ -24,8 +24,8 @@ public class DoorKey : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-                DoorScript.doorKey = true;
-                Destroy(this.gameObject);
+            DoorScript.doorKey = true;
+            Destroy(this.gameObject);
         }
     }
 
