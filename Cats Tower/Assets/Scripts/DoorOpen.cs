@@ -7,8 +7,8 @@ public class DoorOpen : MonoBehaviour
     public Animation DoorAni;
 
 
-    public void OnTriggerEnter(Collider other)
+    /*public void OnTriggerEnter(Collider other)
     {
         DoorAni.Play();
-    }
+    }*/
 }

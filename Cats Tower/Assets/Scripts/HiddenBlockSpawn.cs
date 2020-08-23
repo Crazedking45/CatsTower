@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class HiddenBlockSpawn : MonoBehaviour
 {
+    public GameObject weapon;
     public AudioSource audioSource;
     public GameObject key;
+
+    void Start()
+    {
+        this.gameObject.GetComponent<Renderer>().enabled = false;
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -14,22 +20,21 @@ public class HiddenBlockSpawn : MonoBehaviour
             audioSource.Play();
         }
 
-        else
-        {
-            this.gameObject.GetComponent<Renderer>().enabled = false;
-            key.SetActive(false);
-        }
-
-        if (other.gameObject.CompareTag("Weapon"))
+        if (weapon.gameObject.CompareTag("Weapon"))
         {
             this.gameObject.GetComponent<Renderer>().enabled = true;
             key.SetActive(true);
+            this.GetComponent<Collider>().isTrigger = false; 
         }
+    }
 
-        else
+    void OnTriggerExit(Collider other)
+    {
+        if (weapon.gameObject.CompareTag("Weapon"))
         {
-            this.gameObject.GetComponent<Renderer>().enabled = false;
-            key.SetActive(false);
+            this.gameObject.GetComponent<Renderer>().enabled = true;
+            key.SetActive(true);
+            this.GetComponent<Collider>().isTrigger = false;
         }
     }
 }
