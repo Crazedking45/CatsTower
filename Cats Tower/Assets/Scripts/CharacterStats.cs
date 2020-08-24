@@ -29,7 +29,13 @@ public class CharacterStats : MonoBehaviour
             Die();
         }
     }
-
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.tag == "Enemy")
+        {
+            Destroy(col.gameObject);
+        }
+    }
     public virtual void Die()
     {
         Debug.Log(transform.name + " died");

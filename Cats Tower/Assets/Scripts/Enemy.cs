@@ -6,7 +6,7 @@ using UnityEngine;
 public class Enemy : Interactable
 {
     PlayerManager playerManager;
-    CharacterStats myStats;
+    CharacterStats myStats; 
 
     void Start()
     {
@@ -24,4 +24,5 @@ public class Enemy : Interactable
         }
 
     }
+    
 }
