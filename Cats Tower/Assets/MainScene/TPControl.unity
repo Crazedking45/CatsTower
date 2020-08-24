@@ -4297,6 +4297,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566474, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
         type: 3}
       propertyPath: lookRadius
@@ -4306,6 +4311,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566479, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
@@ -4473,7 +4483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1000
   damage:
-    baseValue: 10
+    baseValue: 1
   healthBar: {fileID: 2043728847}
 --- !u!114 &438491512
 MonoBehaviour:
@@ -5348,6 +5358,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566474, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
         type: 3}
       propertyPath: lookRadius
@@ -5357,6 +5372,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566479, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
@@ -19880,7 +19900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4844475096256448, guid: 0205ad0993780b64bab3d4dceac2f090, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.53
+      value: -62.87
       objectReference: {fileID: 0}
     - target: {fileID: 4844475096256448, guid: 0205ad0993780b64bab3d4dceac2f090, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19888,7 +19908,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4844475096256448, guid: 0205ad0993780b64bab3d4dceac2f090, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.08
+      value: -2.749
       objectReference: {fileID: 0}
     - target: {fileID: 4844475096256448, guid: 0205ad0993780b64bab3d4dceac2f090, type: 3}
       propertyPath: m_LocalRotation.x
@@ -20837,6 +20857,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566474, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
         type: 3}
       propertyPath: lookRadius
@@ -20846,6 +20871,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566479, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
@@ -22527,6 +22557,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566474, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4295235456469566477, guid: 2e5e694733c0ffc499b0ae120e752e6a,
         type: 3}
       propertyPath: lookRadius
@@ -22536,6 +22571,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295235456469566479, guid: 2e5e694733c0ffc499b0ae120e752e6a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5e694733c0ffc499b0ae120e752e6a, type: 3}
